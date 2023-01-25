@@ -14,15 +14,11 @@ shared_scripts {
     'shared/*.lua',
 }
 client_scripts {
-    '@PolyZone/client.lua',
-    '@PolyZone/BoxZone.lua',
-    '@PolyZone/CircleZone.lua',
     'client/*.lua',
 }
 
 server_scripts {
     'server/*.lua',
-    '@oxmysql/lib/MySQL.lua',
 }
 
 files {
@@ -31,9 +27,3 @@ files {
 }
 
 ui_page "html/ui.html"
-
-escrow_ignore {
-    'shared/*.lua',
-    'client/cl_Utils.lua',
-    'server/sv_Utils.lua',
-}

@@ -19,8 +19,8 @@ RegisterNUICallback("exit", function(data)
 end)
 
 --SHOW BODYCAM
-RegisterNetEvent("rx_bodycam:show")
-AddEventHandler("rx_bodycam:show", function(name_server, job_server)
+RegisterNetEvent("drc_bodycam:show")
+AddEventHandler("drc_bodycam:show", function(name_server, job_server)
     Animation()
     SetDisplay(false)
     name = name_server

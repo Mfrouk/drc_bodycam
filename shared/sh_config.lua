@@ -12,5 +12,11 @@ Config.PoliceJobs = {
         Grades = {
             { GradeNumber = 0, Shortcut = "CADET" },
         }
+    },
+    sheriff = {
+        Shortcut = "LSSD",
+        Grades = {
+            { GradeNumber = 0, Shortcut = "CADET" },
+        }
     }
 }
